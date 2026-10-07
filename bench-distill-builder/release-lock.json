@@ -1,0 +1,7 @@
+{
+  "benchmark": "belebele-tiny-20-v1",
+  "dataset.json": {
+    "bytes": 954985,
+    "sha256": "3d09d3653b72cf19c5226cd134bdd7d92ac31f2822cf45bc60879e7a95a75e6d"
+  }
+}

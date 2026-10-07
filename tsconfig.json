@@ -1,0 +1,26 @@
+{
+  // WHY this config exists: Bun executes TypeScript directly, so tsc is used
+  // purely as a typechecker (`bun run typecheck` = `tsc --noEmit`). The
+  // options below describe Bun's runtime semantics to tsc so that what type
+  // checks is also what runs.
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    // Bun resolves imports like a bundler (extensionless, ts paths); "node"
+    // resolution would flag imports that actually run fine under Bun.
+    "moduleResolution": "bundler",
+    "lib": ["ESNext"],
+    // Bun's own globals (Bun.*, BunFile, …); pulled from @types/bun.
+    "types": ["bun"],
+    "strict": true,
+    // Extra strictness worth having for a validator: out-of-bounds array
+    // access returns undefined at runtime, and these flags make that visible
+    // at type level instead of letting it slip through as a false pass.
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    // Bun is the executor; emitting JS here would only risk stale artifacts.
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

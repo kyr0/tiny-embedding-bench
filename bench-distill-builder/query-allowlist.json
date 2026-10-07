@@ -1,0 +1,396 @@
+{
+  "schema": "tiny-retrieval-query-screen.v1",
+  "source_revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+  "reviewer": "OpenAI assistant",
+  "reviewed_language": "eng_Latn",
+  "translation_review": "not independently reviewed by native speakers",
+  "criteria": "Original question has a named entity or explicit subject and is interpretable without answer options or an unresolved passage reference. According to the passage is retained verbatim when the subject is explicit. This is an assistant screen, not human relevance adjudication.",
+  "candidate_frame": "Questions belonging to the 150 source passages with the smallest sum of UTF-8 passage bytes across the 20 languages; ties broken by source URL.",
+  "approved": [
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Animal_Behavior/Army_Ants_-_Social_Hierarchy,_Life_Cycles,_and_Migration",
+      "question_number": 1,
+      "english": "According to the passage, what is true of an army ant colony entering a nomadic phase?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Animal_Behavior/Population_Genetics",
+      "question_number": 1,
+      "english": "Which term describes individuals that display variances of a certain phenotypic trait?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Basic_Physics_of_Digital_Radiography/The_Computer",
+      "question_number": 2,
+      "english": "Binary digits are also referred to as what?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Coaching_Youth_Middle_Distance_Runners/Training",
+      "question_number": 2,
+      "english": "According to the passage, what does middle distance running require?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Exercise_as_it_relates_to_Disease/Can_Exercise_Really_Help_Multiple_Sclerosis%3F",
+      "question_number": 1,
+      "english": "Based on the passage, for whom would a diagnosis of Multiple Sclerosis be most likely?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Fencing",
+      "question_number": 1,
+      "english": "According to the passage, how is fencing usually played?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/First_Aid/Primary_Assessment_%26_Basic_Life_Support",
+      "question_number": 1,
+      "english": "According to the passage, what is the appropriate first step when assessing a victim?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/General_Biology/Genetics/Mutation",
+      "question_number": 1,
+      "english": "The ability for a mutation to be passed on to offspring is dependent upon what?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/High_School_Biology/Nature_of_Science",
+      "question_number": 1,
+      "english": "Which is the typical purpose of an experiment?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/High_School_Earth_Science/Telescopes",
+      "question_number": 2,
+      "english": "How long have humans been magnifying objects using lenses?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/History_of_Technology/Cultural_Determinism",
+      "question_number": 1,
+      "english": "According to the passage, what shaped individuals during the period of Romanticism?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Introduction_to_Paleoanthropology/Genetics/Introduction",
+      "question_number": 1,
+      "english": "Selection removes new genetic variation from which pool?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Introduction_to_Paleoanthropology/Genetics/Introduction",
+      "question_number": 2,
+      "english": "Which process is responsible for adding genetic variation?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Origami/Types/Pureland_Origami",
+      "question_number": 1,
+      "english": "In which scenario would utilizing the Pureland method of origami benefit the folder?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Remembering_the_Templars",
+      "question_number": 1,
+      "english": "Which time period came before the age of the Templars?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Remembering_the_Templars",
+      "question_number": 2,
+      "english": "Which time period came after the age of the Templars?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Biology/Kingdoms/Plants",
+      "question_number": 1,
+      "english": "What aides plants in the process of photosynthesis?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Biology/Kingdoms/Plants",
+      "question_number": 2,
+      "english": "What do humans exhale that plants inhale?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Biology/Systems/Circulatory_System",
+      "question_number": 1,
+      "english": "Which part of the circulatory system brings blood toward the heart?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Biology/Systems/Circulatory_System",
+      "question_number": 2,
+      "english": "Which tubes are the smallest in the circulatory system?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:How_Things_Work/Nuclear_Bomb",
+      "question_number": 1,
+      "english": "According to the passage, what happens when a nucleus is split?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Languages/Estonian",
+      "question_number": 1,
+      "english": "At what time in history did Germany exert a strong cultural influence on Estonia?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Languages/Estonian",
+      "question_number": 2,
+      "english": "The Estonian language was influenced by what?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Languages/Korean",
+      "question_number": 2,
+      "english": "The alphabet Hunmin Jeongeum was eventually changed to what?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Moon",
+      "question_number": 2,
+      "english": "According to the passage, where is the Moon’s crust the thickest?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/The_Sun",
+      "question_number": 1,
+      "english": "What becomes thinner the further you move from the Sun’s center?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/The_Sun",
+      "question_number": 2,
+      "english": "According to the passage, which part of the sun is visible from the Earth?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:The_Elements/Hydrogen",
+      "question_number": 1,
+      "english": "According to the passage, what does fusion allow stars to do?"
+    },
+    {
+      "source_url": "https://en.wikibooks.org/wiki/Wikijunior:World_Heritage_Sites/Botanic_Gardens",
+      "question_number": 2,
+      "english": "What is the Vanda Miss Joaquim?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Abu_Ghraib_prison_burns_after_riot",
+      "question_number": 1,
+      "english": "What occurred during the riot at Abu Ghraib?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Aerosmith_sued_over_late_cancellation_of_gig_in_Maui,_Hawaii",
+      "question_number": 1,
+      "english": "What type of event was to be held at Maui's War Memorial Stadium?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Apple_introduces_iPhone_and_Apple_TV",
+      "question_number": 1,
+      "english": "During his speech, what did Steve Jobs say Apple was going to reinvent?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Australian_Big_Brother_cleared_of_breaching_content_laws",
+      "question_number": 1,
+      "english": "What were ACMA’s findings in regards to Big Brother?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Brazilian_footballer_Gabriel_Jesus_signs_contract_extension_with_Manchester_City",
+      "question_number": 1,
+      "english": "Since joining Manchester City in 2017, how many matches has Jesus played in?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Businessman_and_founder_of_The_Weather_Channel_Frank_Batten_dies_at_82",
+      "question_number": 1,
+      "english": "According to the passage, which place did Batten once hold on the Richest Americans list?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/DeLay_declares_%27victory%27_in_war_on_U.S._budget_fat",
+      "question_number": 2,
+      "english": "Who is criticizing the reconstruction contracts for Hurricane Katrina’s relief efforts?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/EBay_to_acquire_Skype",
+      "question_number": 1,
+      "english": "What was acquired by eBay?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Explorers_find_shipwreck_thought_to_be_massive_WWII_battleship_Musashi",
+      "question_number": 1,
+      "english": "What led Allen to begin an eight-year search for the Musashi?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Fighter_jet_crashes_during_Children%27s_Day_airshow_in_Thailand",
+      "question_number": 1,
+      "english": "What happened to the fire vehicle that responded to the crash of the JAS 39C Gripen? "
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Fighter_jet_crashes_during_Children%27s_Day_airshow_in_Thailand",
+      "question_number": 2,
+      "english": "Following the crash of the JAS 39C Gripen, the airport was closed to what?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Fossilized_remains_of_small_dinosaur_rediscovered_in_Canada",
+      "question_number": 1,
+      "english": "According to the passage, which characteristic differentiates the Hesperonychus from the Velociraptor?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Fossilized_remains_of_small_dinosaur_rediscovered_in_Canada",
+      "question_number": 2,
+      "english": "The meaning of “Hesperonychus” is derived from what physical characteristic of the species?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/France_issues_pollution_alert_as_ship_splits_off_Basque_coast",
+      "question_number": 1,
+      "english": "According to the passage, what was the initial concern amongst officials regarding the Luno?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Guinness_turns_250",
+      "question_number": 1,
+      "english": "Arthur Guinness originally leased St James’ Gate Brewery for how many years?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Guinness_turns_250",
+      "question_number": 2,
+      "english": "About how many billion dollars does Guinness bring in each year?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/IEEE_approves_802.11n_standard_after_six_years",
+      "question_number": 2,
+      "english": "What is necessary for the 802.11n to be backwards compatible with 802.11b?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Khyber_Pakhtunkhwa_Provincial_Assembly_votes_to_merge_with_Pakistani_Federally_Administered_Tribal_Areas",
+      "question_number": 1,
+      "english": "Who provides judicial services for FATA?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Parts_of_New_Orleans_flood_again",
+      "question_number": 2,
+      "english": "During Hurricane Katrina, what occurred in The Ninth Ward?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Rare_Middle_East_cyclone_batters_Oman",
+      "question_number": 2,
+      "english": "How fast were the winds at the peak of Tropical Cyclone Gonu?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Sandra_Fluke_insists_she_will_not_be_silenced",
+      "question_number": 1,
+      "english": "According to Fluke, who was sending her positive comments and encouragement?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Saturn%27s_moon_Titan_hosts_liquid_lakes_and_rivers",
+      "question_number": 2,
+      "english": "Rivers and lakes consisting of a transparent liquid have been identified on what planetary body?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Spanish_football:_Sevilla_signs_Aleix_Vidal_from_FC_Barcelona",
+      "question_number": 2,
+      "english": "How many games has Vidal played for Barça?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Taiwanese_consumer_laptop_market_faces_change_following_ASUStek_winning_sustainability_award",
+      "question_number": 1,
+      "english": "Which company was awarded the Taiwan Sustainable Award in 2007?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Taiwanese_consumer_laptop_market_faces_change_following_ASUStek_winning_sustainability_award",
+      "question_number": 2,
+      "english": "What is the ASUS Eee PC?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Young_motorcycle_racer_Peter_Lenz_dies_in_race_crash_aged_13",
+      "question_number": 1,
+      "english": "When did Peter Lenz die?"
+    },
+    {
+      "source_url": "https://en.wikinews.org/wiki/Young_motorcycle_racer_Peter_Lenz_dies_in_race_crash_aged_13",
+      "question_number": 2,
+      "english": "Who is Xavier Zayat?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Aggregators",
+      "question_number": 2,
+      "english": "According to the passage, what should travelers do first in order to secure the best possible flight prices?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Amsterdam/Canal_District",
+      "question_number": 1,
+      "english": "Where are property values among Amsterdam’s highest?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Amsterdam/Canal_District",
+      "question_number": 2,
+      "english": "Why is the Canal District designated as a UNESCO World Heritage Site?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Birdwatching",
+      "question_number": 1,
+      "english": "Who has the highest risk of contracting avian influenza?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Border_crossing",
+      "question_number": 2,
+      "english": "According to the passage, when might your ID be inspected on some cross-border trains?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Cascais",
+      "question_number": 1,
+      "english": "According to the passage, how did Sintra gain recognition amongst foreigners?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Caucasus",
+      "question_number": 2,
+      "english": "What continues to affect relations between Azerbaijan and Armenia?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Funeral_travel",
+      "question_number": 2,
+      "english": "What is true about bereavement fares?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Glaciers",
+      "question_number": 1,
+      "english": "According to the passage, what causes crevasses?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Hiking_destinations_in_Norway",
+      "question_number": 1,
+      "english": "What is different about plateaus in Rogaland or Agder compared to the rest of Norway?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Hostels",
+      "question_number": 2,
+      "english": "Based on the passage, who is most likely to stay at a hostel?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots",
+      "question_number": 1,
+      "english": "The word hanami refers to the viewing of what?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots",
+      "question_number": 2,
+      "english": "Who hosted the first parties dedicated to viewing cherry blossoms?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Midnight_sun",
+      "question_number": 1,
+      "english": "When would a visitor have the most opportunities to view stars while visiting Antarctic areas?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Returning_home",
+      "question_number": 1,
+      "english": "When arriving in your homeland, which process is typically informal?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Rock_climbing",
+      "question_number": 1,
+      "english": "According to the passage, an abundance of what allows climbers to consistently discover new routes within Cochamó Valley?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/South_Asian_cuisine",
+      "question_number": 1,
+      "english": "According to the passage, a curry is based around which ingredients?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/South_Asian_cuisine",
+      "question_number": 2,
+      "english": "In certain regions, coconut milk is sometimes used in place of which ingredient in a curry?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Subtropical_rainforests",
+      "question_number": 2,
+      "english": "According to the passage, what should you refrain from doing in order to avoid mosquitoes while driving through the rainforest?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Tornado_safety",
+      "question_number": 1,
+      "english": "According to the passage, at what point does a funnel become a tornado?"
+    },
+    {
+      "source_url": "https://en.wikivoyage.org/wiki/Water",
+      "question_number": 1,
+      "english": "According to the passage, what is the best option for avoiding potentially contaminated water?"
+    }
+  ]
+}

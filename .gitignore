@@ -1,0 +1,13 @@
+# Python builder
+.venv/
+__pycache__/
+.cache/
+
+# Bun / TypeScript
+node_modules/
+
+# Generated datasets are committed on purpose (the <1 MB dataset.json is the
+# release artifact); ignore only transient local rebuild outputs if renamed.
+
+# macOS
+.DS_Store

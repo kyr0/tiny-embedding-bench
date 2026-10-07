@@ -1,0 +1,16 @@
+{
+  "name": "tiny-embedding-bench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Validation tooling for the frozen tiny multilingual retrieval benchmark (./datasets/<name>/{dataset.json,MANIFEST.json}). Bun is the package manager and script executor; TypeScript is typecheck-only because Bun runs .ts directly.",
+  "type": "module",
+  "scripts": {
+    "validate": "bun run src/validate.ts",
+    "stats": "bun run src/validate.ts --stats",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.1",
+    "typescript": "^5.9.0"
+  }
+}

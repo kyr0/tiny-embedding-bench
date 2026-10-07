@@ -1,0 +1,2 @@
+# Only downloading requires this dependency. Verify/export/tests use the stdlib.
+huggingface_hub==2.1.1
